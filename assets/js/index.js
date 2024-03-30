@@ -52,6 +52,3 @@ scriptUrls.forEach(function (url) {
     };
     document.head.appendChild(script);
 });
-
-
-
