@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet/less" type="text/css" href="assets/less/all.less" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Include CSS for loading overlay -->
+    <style>
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loading-text {
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+</head>
+
+<body>
+    <main class="contact-wrapper">
+        <div class="contact-bg">
+            <div class="contact-desc">
+                <div class="logo">
+                    <img loading="lazy" src="assets/image/logo/logo_white.webp" alt="logo">
+                </div>
+                <div class="heading">
+                    <h2>
+                        🦊WildFoxWorks🦊
+                    </h2>
+                </div>
+                <div class="text mt-4">
+                    <p>
+                        ⭐ You can call me Ruby or Adrian! (He/Him) I'm a self taught Artist and Fursuit maker based in
+                        Croatia striving to make top quality art! ⭐
+                    </p>
+                </div>
+                <div class="text">
+                    <p class="op">
+                        🌟 Below you can find links to my social media and websites! 🌟
+                    </p>
+                </div>
+                <div class="social">
+                    <ul class="icons">
+                        <li>
+                            <a class="n01" href="#" href="#" aria-label="Twitter">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/twitter.webp" alt="twitter">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n02" href="#" aria-label="Instagram">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/instagram.webp" alt="instagram">
+                                </span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n03" href="#" aria-label="Telegram">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/instagram.webp" alt="instagram">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n04" href="#" aria-label="Email">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/trello.webp" alt="trello">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n05" href="#" aria-label="Facebook">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/facebook.webp" alt="facebook">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n06" href="#" aria-label="Ko-fi">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/paypal.webp" alt="paypal">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="n07" href="#" aria-label="TikTok">
+                                <span>
+                                    <img loading="lazy" src="assets/icons/tiktok.webp" alt="tiktok">
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="btn-wrapper">
+                    <ul class="buttons">
+                        <li>
+                            <a href="index.html" target="_blank" class="button n01">
+                                <span class="label">FURSUIT COMMISSION FORM</span>
+                            </a>
+                        </li>
+                        <li><a href="index.html" target="_blank" class="button n02">
+                                <span class="label">Fursuit commissions</span>
+                            </a>
+                        </li>
+                        <li><a href="https://wildfoxworks.wixsite.com/ruby" target="_blank" class="button n03">
+                                <span class="label">Art commissions</span>
+                            </a>
+                        </li>
+                        <li><a href="https://www.wildfoxworks.com/getting-a-quote" target="_blank" class="button n04">
+                                <span class="label">Get a Quote</span>
+                            </a>
+                        </li>
+                        <li><a href="https://t.me/wildfoxworksupdates" target="_blank" class="button n05">
+                                <span class="label">Telegram update channel</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/WildFoxWorks/" target="_blank" class="button n06">
+                                <span class="label">Facebook page</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://trello.com/b/o99oA5yR/wildfoxworks-queue" target="_blank" class="button n07">
+                                <span class="label">Fursuit Trello</span>
+                            </a>
+                        </li>
+                        <li><a href="https://trello.com/b/yOipG0zQ/commission-queue" target="_blank" class="button n08">
+                                <span class="label">Art Trello</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
